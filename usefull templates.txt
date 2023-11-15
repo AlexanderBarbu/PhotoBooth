@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="thelooks.css">
+        <title>Photobooth/Companies</title>
+    </head>
+
+    <body>
+          <header>
+               <a href="index.html">
+                    <img class = "logo" src="imgmaterial\logo.png"width="250" height="150" alt="our logo">
+               </a>
+               <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home page</a></li>
+                    <li><a href="Comp.html">Companies</a></li>
+                    <li><a href="tut.html">Tutorials</a></li>                   
+                    <li>
+                         <div class='dropdown'>
+                              <a href="comp.html">Products</a>
+                              <div class='dropdown-content'>
+                                   <a href="canon.html">Canon</a>
+                                   <a href="nikon.html">Nikon</a>
+                                   <a href="sony.html">Sony</a>
+                                   <a href="olympus.html">Olympus</a>
+                                   <a href="sigma.html">Sigma</a>
+                                   <a href="tamron.html">Tamron</a>
+                                   <a href="fuji.html">Fujifilm</a>
+                                   <a href="leica.html">Leica</a>
+                              </div>
+                         </div>
+                    </li>                        
+                </ul>
+               </nav>
+               <a class="About" href='#'><button>About</button></a>       
+          </header>
+          <div class="footer">
+               <h4>Μπάρμπου Αλέξανδρος & Γεωργία Καλογιάννη & Λεμονής Κώστας p3200284 & p3210058 & P3210100 </h4> <h3>Ο.Π.Α. 2021-2022</h3>     
+          </div>
+     </body>
+</html>
+
+
+
+
+
+
+<!-- 
+          <div class="Fcontainer">
+                <div id='fcontainer canon'>
+                    <div id="eos2000d">
+                        <a href="https://www.skroutz.gr/s/14151564/Canon-EOS-2000D-Kit-EF-S-18-55mm-IS-II-Black.html">
+                            <img src="imgmaterial/products/Canon/eos2000d.jpeg" width="325" height="200" alt="EOS 2000D">
+                        </a>
+                        <h3>CANON EOS2000D Kit EF-S 18-55mm </h3>
+                        <h4>411.90€</h4>
+                        <a href="#"> <button>Click here to see specs</button> </a>
+                    </div>
+                    <div id="eos250d">
+                        <a href="https://www.skroutz.gr/s/20835827/Canon-EOS-250D-Kit-EF-S-18-135mm-f-3-5-5-6-IS-STM-Black.html?from=index_recently_viewed">
+                            <img src="imgmaterial/products/Canon/eos250d.jpeg" width="350" height="200" alt="EOS 250D">
+                        </a>
+                        <h3>CANON EOS250D Kit EF-S 18-135mm f/3.5-5.6</h3>
+                        <h4>935.00€</h4>
+                        <a href="#"> <button>Click here to see specs</button> </a>
+                    </div>                    
+                    <div id="eosr6">
+                        <a href="https://www.skroutz.gr/s/24167206/Canon-Mirrorless-Φωτογραφική-Μηχανή-EOS-R6-Full-Frame-Kit-RF-24-105mm-F4-7-1-IS-STM-Black.html">
+                            <img src="imgmaterial/products/Canon/eosr6.jpeg" width="350" height="200" alt="EOS R6">
+                        </a>
+                        <h3>CANON Mirrorless R6 RF 24-105mm f/4-7</h3>
+                        <h4>3,189.00€</h4>
+                        <a href="#"> <button>Click here to see specs</button> </a>
+                    </div>    
+                </div>
+                <div id='fcontainer nikon'>
+                    <div id="D3400">
+                        <a href="https://www.skroutz.gr/s/10464085/Nikon-D3400-Kit-AF-P-DX-18-55mm-f-3-5-5-6G-Black.html">
+                            <img src="imgmaterial/products/nikon/d3400.jpeg" width="325" height="200" alt="D3400">
+                        </a>
+                        <h3>Nikon D3400 Kit (AF-P DX 18-55mm f/3.5-5.6G) Black</h3>
+                        <h4>479.00€</h4>
+                        <a href="#"> <button>Click here to see specs</button> </a>
+                    </div>
+                    <div id="D7500">
+                        <a href="https://www.skroutz.gr/s/11656188/Nikon-D7500-Kit-AF-S-DX-18-140mm-f-3-5-5-6G-ED-VR-Black.html">
+                            <img src="imgmaterial/products/nikon/d7500.jpeg" width="350" height="200" alt="D7500">
+                        </a>
+                        <h3>Nikon D7500 Kit (AF-S DX 18-140mm f/3.5-5.6G ED VR) Black</h3>
+                        <h4>1,248.00€</h4>
+                        <a href="#"> <button>Click here to see specs</button> </a>
+                    </div>                    
+                    <div id="Z6">
+                        <a href="https://www.skroutz.gr/s/24167206/Canon-Mirrorless-Φωτογραφική-Μηχανή-EOS-R6-Full-Frame-Kit-RF-24-105mm-F4-7-1-IS-STM-Black.html">
+                            <img src="imgmaterial/products/Canon/eosr6.jpeg" width="350" height="200" alt="Z6">
+                        </a>
+                        <h3>Nikon Mirrorless Z 6II Full Frame Kit (Z 24-70mm F4 S) Black</h3>
+                        <h4>2,459.00€</h4>
+                        <a href="#"> <button>Click here to see specs</button> </a>
+                </div>
+                <div id='fcontainer sony'>
+                
+                </div>
+                <div id='fcontainer olympus'><!--mostly old school cameras-->
+                
+                </div>
+                <div id='fcontainer sigma'><!--They usually sell lenses-->
+                
+                </div>
+                <div id='fcontainer tamron'><!--They usually sell lenses-->
+                    
+                </div>
+            
